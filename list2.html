@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Nesting of list -->
+
+    <ul>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- Look, the closing </li> tag is not placed here! -->
+          <ul>
+            <li>second item first subitem</li>
+            <li>
+              second item second subitem
+              <!-- Same for the second nested unordered list! -->
+              <ul>
+                <li>second item second subitem first sub-subitem</li>
+                <li>second item second subitem second sub-subitem</li>
+                <li>second item second subitem third sub-subitem</li>
+              </ul>
+            </li>
+            <!-- Closing </li> tag from line 16 -->
+            <li>second item third subitem</li>
+          </ul>
+          <!-- Here is the closing </li> tag for line 14 -->
+        </li>               <!--   Here is the closing tag for line 11 -->
+        <li>third item</li>
+      </ul>
+      <!-- Here the closing tag from line 9 -->
+
+      
+     <ul>
+      <li>khushi nain </li>
+      <li>sayna nain 
+          <ul>
+          <li>vansh nain </li>
+          <li>sushil nain</li>
+          </ul>
+      </li>
+      <li>geeta nain </li>
+   </ul>
+   <ul>
+      <li>Bimla nain</li>
+
+      <!-- ordered in unordered -->
+
+      <ul>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- Look, the closing </li> tag is not placed here! -->
+          <ol>
+            <li>second item first subitem</li>
+            <li>second item second subitem</li>
+            <li>second item third subitem</li>
+          </ol>
+          <!-- Here is the closing </li> tag -->
+        </li>
+        <li>third item</li>
+      </ul>
+
+   </ul>
+</body>
+</html>
